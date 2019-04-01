@@ -1,0 +1,37 @@
+p.small {
+  font-size: 0.6rem
+}
+
+li {
+  font-size: 0.6rem
+}
+
+.clippy {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 13px;
+  top: 3px;
+}
+
+.columns {
+  -moz-column-width: 10em;
+  -webkit-column-width: 10em;
+  column-width: 10em;
+}
+
+.columns ol li:first-child
+{
+  margin-top:0px;
+}
+
+button {
+  border: none;
+}
+
+table {
+  vertical-align: top;
+}
+td {
+  vertical-align: top;
+}
