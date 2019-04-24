@@ -1,0 +1,57 @@
+p.small {
+  font-size: 0.6rem
+}
+
+li {
+  font-size: 0.75rem
+}
+
+.clippy {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 13px;
+  top: 3px;
+}
+
+.columns {
+  -moz-column-width: 15em;
+  -webkit-column-width: 15em;
+  column-width: 15em;
+}
+
+.columns ol li:first-child {
+  margin-top: 0px;
+}
+
+button {
+  border: none;
+}
+
+table {
+  vertical-align: top;
+}
+
+td {
+  vertical-align: top;
+}
+
+#background {
+  position: absolute;
+  top: 180px;
+  left: 10px;
+  z-index: 0;
+  min-height: 50%;
+  min-width: 50%;
+}
+
+#email {
+  color: blue;
+  font-size: 35px;
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  opacity: 0.7;
+}
+
+body {
+}
